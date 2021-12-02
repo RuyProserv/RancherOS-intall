@@ -1,0 +1,15 @@
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCMVDAOz449eajEcfsbXp4NhLZcxDoc9uTxlMmYsWurjV/Qxf8OZFJOz2p5bKgaqV947ojlqtC5cU7oKLWKAqg6fdQ/X3yVfFtiT86Sgb1jwofn3c9dlMtTs/YdA9L1JvzwSVER1y6xS05UXavXxQvlmNT9V9Ho9ONgSpYJMfLSd1+TCQNyCB0lssgs5kvuLQUrHNT72wC/YvphQP+blk2h1YaVbZ5/vLHeJdDBhiLamNNI4nf5kvINTF/QNzeT8Q3cOg21/XPXsLXXjtelzW+vjQ57OFzS8AoqmiDmTQ6O2aoi/fa+xv2suetci3QAbdb8qNtK0b1MUYj20/1+iBB9 rsa-key-20211202 ruy@proserv.net.br
+hostname: ros1.proserv.net.br
+rancher:
+  network:
+    interfaces:
+      eth0:
+        address: 143.208.136.53/27
+        gateway: 143.208.136.33
+        mtu: 1500
+        dhcp: false
+    dns:
+      nameservers:
+        - 143.208.136.50
+        - 208.67.220.220
